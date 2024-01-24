@@ -123,3 +123,10 @@ def custom_openapi_json():
     )
     app.openapi_schema = openapi_schema
     return app.openapi_schema
+
+
+@app.get("/container_trigger")
+def container_trigger():
+    return
+
+
