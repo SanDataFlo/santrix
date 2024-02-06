@@ -128,5 +128,3 @@ def custom_openapi_json():
 @app.get("/container_trigger")
 def container_trigger():
     return
-
-
